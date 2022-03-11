@@ -89,3 +89,18 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+.town {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 2fr;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    justify-content: right;
+    align-items: center;
+}
