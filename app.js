@@ -80,14 +80,17 @@ function displaySlogans() {
     sloganEl.textContent = '';
 
     for (let slogan of slogans) {
-        const pTag = document.createElement('p');
+        const pTag = document.createElement('h1');
 
         pTag.classList.add('slogan');
         pTag.textContent = slogan;
 
         sloganEl.append(pTag);
     }
-
+    
+    if (slogans.length === 4) {
+        slogans.slice();
+    }
 }
 
 function displayStatistics() {
@@ -113,7 +116,7 @@ function displayNames() {
         const h2 = document.createElement('h2');
 
         h2.classList.add('name');
-        h2.textContent = name;
+        h2.textContent = `Welcome to: ${name}!`;
 
         nameEl.append(h2);
     }
