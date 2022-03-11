@@ -92,34 +92,26 @@ footer {
 .town {
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    height: 800px;
-    width: 200px;
-}
-.right{
+} 
+.left, .right {
+    width: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    width: 250px;
-    justify-content: right;
     align-items: center;
 }
-.left{
-    display: grid;
-    flex-direction: column;
-    justify-content: left;
-    height: 200px;
-    width: 200px;
-}
 .bg-city{
+    width: 300px;
     height: 200px;
-    object-fit: fill;
-    
+    background-size: 300px, 150px;
 }
 .bg-countryside{
-    height: 200px;
-    width: 200px;
+    width: 300px;
+    height: 150px;
+    background-size: 300px, 150px;
 }
 .bg-forest{
+    width: 300px;
     height: 200px;
-    width: 200px;
+    background-size: 300px, 150px;
 }
