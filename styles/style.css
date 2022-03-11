@@ -90,11 +90,10 @@ footer {
     box-shadow: var(--shadow);
 }
 .town {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr 2fr;
     display: flex;
     flex-direction: column;
-    height: 200px;
+    justify-content: left;
+    height: 800px;
     width: 200px;
 }
 .right{
@@ -103,4 +102,24 @@ footer {
     width: 250px;
     justify-content: right;
     align-items: center;
+}
+.left{
+    display: grid;
+    flex-direction: column;
+    justify-content: left;
+    height: 200px;
+    width: 200px;
+}
+.bg-city{
+    height: 200px;
+    object-fit: fill;
+    
+}
+.bg-countryside{
+    height: 200px;
+    width: 200px;
+}
+.bg-forest{
+    height: 200px;
+    width: 200px;
 }
