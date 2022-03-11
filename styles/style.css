@@ -103,15 +103,15 @@ footer {
 .bg-city{
     width: 300px;
     height: 200px;
-    background-size: 300px, 150px;
+    background-size: cover;
 }
 .bg-countryside{
     width: 300px;
-    height: 150px;
-    background-size: 300px, 150px;
+    height: 200px;
+    background-size: cover;
 }
 .bg-forest{
     width: 300px;
     height: 200px;
-    background-size: 300px, 150px;
+    background-size: cover;
 }
