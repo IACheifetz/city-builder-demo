@@ -90,16 +90,33 @@ footer {
     box-shadow: var(--shadow);
 }
 .town {
-    display: flex;
+    position: relative;
+    left: -750px;
+    display: grid;
+    grid-template-columns: 1fr, 2fr, 1fr;
+    justify-content: left;
     flex-direction: column;
 } 
-.left, .right {
+
+.picker {
+    position: relative;
+    left: 600px;
+    bottom: 500px;
+}
+
+.stats {
+    position: relative;
+    left: 600px;
+    bottom: 500px;
+}
+
+ .left, .right {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-}
+} 
 .bg-city{
     width: 300px;
     height: 200px;
