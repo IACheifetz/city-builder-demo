@@ -20,48 +20,60 @@
     </header>
     <main>
         <section class="main-section">
-            <img class="main-logo" src="./assets/alchemy-logo.png" />
             <h2>
-                Welcome to Alchemy Bootstrap!
+                Postcard creator
             </h2>
+        <div class="left">
+            <div class="town">
+                <div class="bg-city" id="city"></div>
+                <div class="bg-countryside" id="countryside"></div>
+                <div class="bg-forest" id="forest"></div>
+            </div>
+        </div>
 
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
-            <hr />
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur
-                voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos
-                praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores
-                provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente
-                excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil
-                inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi
-                reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit
-                possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis
-                ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa
-                praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis
-                exercitationem?
-            </p>
-
-        </section>
+        <div class="right">
+            <div class="picker">
+                <label>
+                    " City "
+                    <select id="city-dropdown">
+                        <option value="city-one">city one</option>
+                        <option value="city-two">city two</option>
+                        <option value="city-three">city three</option>
+                    </select>
+                </label>
+                <label>
+                    " Countryside "
+                    <select id="countryside-dropdown">
+                        <option value="countryside-one">countryside one</option>
+                        <option value="countryside-two">countryside two</option>
+                        <option value="countryside-three">countryside three</option>
+                    </select>
+                </label>
+                <label>
+                    " Forest "
+                    <select id="forest-dropdown">
+                        <option value="forest-one">forest one</option>
+                        <option value="forest-two">forest two</option>
+                        <option value="forest-three">forest three</option>
+                    </select>
+                </label>
+                <label>
+                    " Add a slogan for your town "
+                    <input id="slogan-input">
+                    <button id="slogan-button">Add</button>
+                </label>
+                <label>
+                    " Pick the name for your town "
+                    <input id="name-input">
+                    <button id="name-button">Add</button>
+                </label>
+            </div>
+            <div id="tracked-stats">
+                <p id="reported"></p>
+                <div id="slogans"> </div>
+            </div>
+        </div>
+    </section>
     </main>
     <footer>
         <div class="copy gutter-right">&copy; 2021 Alchemy Code Lab</div>
